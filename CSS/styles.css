@@ -250,6 +250,7 @@ p {
     }
 
     .scrollOff {
+      position: static;
       overflow: hidden;
     }
 
