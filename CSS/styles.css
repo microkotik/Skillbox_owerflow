@@ -252,6 +252,7 @@ p {
     .scrollOff {
       position: static;
       overflow: hidden;
+	 width: 100%;
     }
 
 #column-center {
