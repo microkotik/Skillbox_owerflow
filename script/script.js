@@ -16,8 +16,7 @@ $(document).ready(function(){
 
   $('html').on('click', '.scrollButton', function(event) {
     event.preventDefault();
-    if ('body')
-    // $('body').css('overflow', 'hidden');
+    $(document).bind('touchmove', false);
     $('body').toggleClass('scrollOff');
   });
   
